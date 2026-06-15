@@ -1,0 +1,51 @@
+name: "Bug Report"
+description: "Reporting Bugs"
+labels: "bug"
+title: "Bug Report from Template"
+body:
+- type: markdown
+  attributes: 
+    value: |
+      Thanks for filling out this bug
+- type: input
+  id: prevalence
+  attributes:
+    label: Bug prevalence
+    description: "How often do you or others encounter this bug?"
+    placeholder: "Whenever I compile"
+  validations:
+    required: false
+body:
+- type: input
+  id: where
+  attributes:
+    label: Place of Interest
+    description: "Where does this bug happen?"
+    placeholder: "Parser"
+  validations:
+    required: true
+body:
+- type: input
+  id: what-happens
+  attributes:
+    label: About the Bug
+    description: "What does this bug do?"
+    placeholder: "Parser wont Start after Script added"
+  validations:
+    required: false
+- type: input
+  id: commit
+  attributes:
+    label: Compiler commit id
+    description: "How often do you or others encounter this bug?"
+    placeholder: "7727af8"
+  validations:
+    required: true
+- type: textarea
+  id: sample
+  attributes:
+    label: Code Sample
+    description: "Code that causes this bug?"
+    placeholder: "let x: int = 10"
+  validations:
+    required: false
