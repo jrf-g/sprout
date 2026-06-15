@@ -2,6 +2,7 @@ name: "Bug Report"
 description: "Reporting Bugs"
 labels: "bug"
 title: "Bug Report from Template"
+assignees: "jrf-g"
 body:
 - type: markdown
   attributes: 
