@@ -37,7 +37,7 @@ body:
   id: commit
   attributes:
     label: Compiler commit id
-    description: "How often do you or others encounter this bug?"
+    description: "Commit ID of Compiler?"
     placeholder: "7727af8"
   validations:
     required: true
